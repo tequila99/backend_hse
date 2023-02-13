@@ -10,7 +10,12 @@ from core.models import TaskModel
 class TaskListSerializer(ModelSerializer):
     class Meta:
         model = TaskModel
-        fields = ("id", "name", "description", "deadline", "status")
+        fields = (
+            "id",
+            "name",
+            "description",
+            "is_done",
+        )
         read_only_fields = ("id",)
 
 
