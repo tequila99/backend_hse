@@ -1,10 +1,10 @@
 ### Код с мастер-класса в ВШЭ
 
-###Запуск:
-####Через докер:
+### Запуск:
+#### Через докер:
 `docker-compose up --build`
-####Локальный запуск:
-#####Нужно сделать в первый раз:
+#### Локальный запуск:
+##### Нужно сделать в первый раз:
 `python -m venv venv`
 
 On Unix or Linux: `source venv/bin/activate` On Windows:`venv\Scripts\activate.bat`
@@ -15,10 +15,10 @@ On Unix or Linux: `source venv/bin/activate` On Windows:`venv\Scripts\activate.b
 
 `python manage.py createsuperuser`
 
-#####Далее:
+##### Далее:
 `python manage.py runserver`
 
-###Полезные ссылки:
+### Полезные ссылки:
 https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 
 https://www.django-rest-framework.org/tutorial/1-serialization/
