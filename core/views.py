@@ -15,6 +15,7 @@ class TaskListSerializer(ModelSerializer):
             "name",
             "description",
             "is_done",
+            "priority"
         )
         read_only_fields = ("id",)
 
